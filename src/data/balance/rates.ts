@@ -7,7 +7,7 @@
 // #region Encounterable properties
 
 /** `64/65536 -> 1/1024` */
-export const BASE_SHINY_CHANCE = 64;
+export const BASE_SHINY_CHANCE = 32;
 
 /** `1 / 256` */
 export const BASE_HIDDEN_ABILITY_RATE = 256;
@@ -26,7 +26,7 @@ export const GACHA_LEGENDARY_UP_THRESHOLD_OFFSET = 1; // The offset to threshold
 
 // The number of eggs without finding a certain tier egg it takes for egg pity to kick in and that tier to be forced
 // These numbers are roughly the 80% mark. That is, 80% of the time you'll get an egg before this gets triggered.
-export const EGG_PITY_LEGENDARY_THRESHOLD = 412;
+export const EGG_PITY_LEGENDARY_THRESHOLD = 100;
 export const EGG_PITY_EPIC_THRESHOLD = 59;
 export const EGG_PITY_RARE_THRESHOLD = 9;
 
@@ -39,7 +39,7 @@ export const HATCH_WAVES_MANAPHY_EGG = 50;
 
 // Rates for specific random properties in 1/x
 export const GACHA_DEFAULT_SHINY_RATE = 128;
-export const GACHA_SHINY_UP_SHINY_RATE = 64;
+export const GACHA_SHINY_UP_SHINY_RATE = 32;
 export const SAME_SPECIES_EGG_SHINY_RATE = 12;
 export const SAME_SPECIES_EGG_HA_RATE = 8;
 export const MANAPHY_EGG_MANAPHY_RATE = 8;
